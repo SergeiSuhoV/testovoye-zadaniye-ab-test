@@ -1,0 +1,36 @@
+.title-active {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+
+  &__text {
+    margin: 0;
+    padding-right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #999999;
+  }
+
+  &__image {
+    margin: 0;
+    object-fit: fill;
+    visibility: hidden;
+
+    &_direct-up {
+      visibility: unset;
+      // display: block;
+    }
+
+    &_direct-down {
+      visibility: unset;
+      transform: rotate(180deg);
+    }
+  }
+}

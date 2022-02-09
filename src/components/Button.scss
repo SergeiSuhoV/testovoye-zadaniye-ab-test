@@ -1,0 +1,27 @@
+.button {
+  margin: 0;
+  width: 95px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(125, 125, 125, 0.376);
+  color: #fe4848;
+  background-color: inherit;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 14.63px;
+  line-height: 100%;
+  align-items: Center;
+  vertical-align: Center;
+
+  &_finalize {
+    background-color: #7d7d7d;
+    color: #ffffff;
+    border: none;
+  }
+
+  &_results {
+    background-color: #2ee5ac;
+    color: #ffffff;
+    border: none;
+  }
+}
