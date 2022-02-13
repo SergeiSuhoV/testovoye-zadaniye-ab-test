@@ -1,5 +1,4 @@
 import "./Results.scss";
-
 import React from "react";
 
 function Results() {

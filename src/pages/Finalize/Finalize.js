@@ -1,5 +1,4 @@
 import "./Finalize.scss";
-
 import React from "react";
 
 function Finalize() {
