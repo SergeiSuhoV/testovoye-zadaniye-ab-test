@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # -testovoye-zadaniye-ab-test
 
 Тестовое задание, Dashboard с A/B тестами
