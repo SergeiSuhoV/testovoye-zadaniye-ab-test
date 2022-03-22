@@ -30,7 +30,6 @@ function Table({ data, dataListSite, onChangeDirect }) {
 
   return (
     <table className="table">
-      {/* Head table */}
       <thead>
         <tr>
           <th>
