@@ -17,7 +17,6 @@ Table.propTypes = {
   ),
 };
 
-// Не ясно как работают цвета по ТЗ. Это рандом или чего))) ?
 function Table({ data, dataListSite, onChangeDirect }) {
   const colorSticks = {
     1: "table__element-color_red",
